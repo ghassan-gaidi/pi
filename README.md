@@ -10,6 +10,15 @@
 
 > New issues and PRs from new contributors are auto-closed by default. Maintainers review auto-closed issues daily. See [CONTRIBUTING.md](CONTRIBUTING.md).
 
+> ## 🤖 Autonomous pentester edition — [`pi-pentest/`](pi-pentest/)
+>
+> This fork adds a **specialized autonomous hacking agent** on top of stock Pi:
+> operator-mode loop (recon → enum → exploit → verify → report), 8 pentest tools
+> (HTTP client, nmap/dir/nuclei wrappers, evidence ledger, phase machine, HTML dossier
+> export), 6 skills routing into ~130 preloaded specialists, pentest-aware compaction,
+> and a model-free self-test rig (**17/17 PASS** vs. a live vulnerable fixture).
+> Zero core forks — pure `pi-package`. Start at [`pi-pentest/README.md`](pi-pentest/README.md).
+
 # Pi Agent Harness
 
 This is the home of the Pi agent harness project including our self extensible coding agent.
